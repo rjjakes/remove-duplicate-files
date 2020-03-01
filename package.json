@@ -2,7 +2,10 @@
   "name": "remove-duplicate-files",
   "version": "1.0.0",
   "description": "Compare two directories and removes duplicate files from one.",
-  "main": "src/index.js",
+  "main": "cli.js",
+  "bin": {
+    "remove-duplicate-files": "cli.js"
+  },
   "scripts": {
     "test": "node src/index.js ./temp_public/ ./temp_publicold/"
   },
