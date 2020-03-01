@@ -1,0 +1,15 @@
+{
+  "name": "remove-duplicate-files",
+  "version": "1.0.0",
+  "description": "Compare two directories and removes duplicate files from one.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js ./temp_public/ ./temp_publicold/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "filecompare": "^1.0.4",
+    "recursive-readdir": "^2.2.2"
+  }
+}

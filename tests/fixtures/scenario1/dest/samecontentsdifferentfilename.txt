@@ -1,0 +1,1 @@
+this files has the same contents but different filename in the other directory
