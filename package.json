@@ -2,7 +2,7 @@
   "name": "remove-duplicate-files",
   "version": "1.0.0",
   "description": "Compare two directories and removes duplicate files from one.",
-  "main": "cli.js",
+  "main": "index.js",
   "bin": {
     "remove-duplicate-files": "cli.js"
   },
